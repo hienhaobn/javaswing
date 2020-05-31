@@ -3,6 +3,7 @@ package com.qlda.controller;
 
 import com.qlda.bean.DanhMucBean;
 import com.qlda.view.ChiTietDuAnJPanel;
+import com.qlda.view.TaiKhoanJPanel;
 import com.qlda.view.TrangChuJPanel;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -71,6 +72,9 @@ public class ChuyenManHinhController {
                     break;
                 case "ChiTietDuAn":
                     node = new ChiTietDuAnJPanel();
+                    break;
+                case "TaiKhoan":
+                    node = new TaiKhoanJPanel();
                     break;
                 default:
                     node = new TrangChuJPanel();

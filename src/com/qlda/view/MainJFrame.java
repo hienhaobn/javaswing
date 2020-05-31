@@ -15,7 +15,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     public MainJFrame() {
         initComponents();
-        
+         
         setTitle("QUẢN LÝ DỰ ÁN CÔNG NGHỆ THÔNG TIN");
         
         ChuyenManHinhController controller = new ChuyenManHinhController(jpnView);
